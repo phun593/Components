@@ -29,6 +29,8 @@ Vue.component('song-list', {
 					<ul list-group v-for="song in songs">
 					<song>Title {{ song.title }}</song>
 					<song>Artist {{ song.artest }}</song>
+
+					
 					</ul>
 				</div>
 				`,
@@ -70,7 +72,7 @@ Vue.component('song-list', {
  			addItem(){
 
  				this.songs.push(this.newItem);
- 				this.newItem ='';
+ 				this.addItem ='';
 
  			}
 
